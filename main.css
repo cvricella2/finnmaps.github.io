@@ -1,0 +1,41 @@
+
+body, html {
+  height:75%;
+  font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  display:flex;
+  margin:0;
+  flex-direction:column;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
+
+.container-main img {
+    max-width:50%;
+}
+
+.container-main p {
+    max-width:40%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+.container-main img {
+    max-width:75%;
+}
+
+.container-main p {
+    max-width:65%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+}
